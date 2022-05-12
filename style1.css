@@ -112,7 +112,7 @@ section .main .languages li a
 }
 section .main .languages li a:hover
 {text-decoration: underline;}
-section footer{
+footer{
 	
 	position:absolute;
 	top:0;
