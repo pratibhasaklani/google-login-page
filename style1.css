@@ -113,6 +113,14 @@ section .main .languages li a
 section .main .languages li a:hover
 {text-decoration: underline;}
 section footer{
+	
+	position:absolute;
+	top:0;
+width:100%;
+display:flex;
+justify-content:flex-end;
+padding:20px;
+
 	background:#f2f2f2;
 	border-top: solid 2px #e4e4e4;
 	bottom:0;
