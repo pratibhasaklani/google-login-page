@@ -117,15 +117,16 @@ section .main .languages li a:hover
 section.footer
 {
 	position:absolute;
-	width:100%;
-        background:#f2f2f2;
 	bottom:0;
 	left:0;
+	width:100%;
+        background:#f2f2f2;
+	
 }
 section.footer .row
 {
 	padding:15px 25px;
-	bordertop; 1px solid rgba(0,0,0,0.05);
+	border-top; 1px solid rgba(0,0,0,0.05);
 }
 section.footer .row.row2
 {       display:flex;
