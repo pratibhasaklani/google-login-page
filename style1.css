@@ -111,15 +111,19 @@ section .main .languages li a
     color: #555;
 }
 section .main .languages li a:hover
-{text-decoration: underline;}
-section.footer{
+{
+	text-decoration: underline;
+}
+section.footer
+{
 	position:absolute;
 	width:100%;
         background:#f2f2f2;
 	bottom:0;
 	left:0;
 }
-section.footer .row{
+section.footer .row
+{
 	padding:15px 25px;
 	bordertop; 1px solid rgba(0,0,0,0.05);
 }
@@ -127,19 +131,23 @@ section.footer .row.row2
 {       display:flex;
 	justify-content:space-between;
 }
-section.footer .row.row2 ul{
+section.footer .row.row2 ul
+{
   display:flex;
 }
-section.footer .row.row2 ul li{
+section.footer .row.row2 ul li
+{
    list style:none;
 }
-section.footer .row.row2 ul li a{
+section.footer .row.row2 ul li a
+{
 	text-decoration: none;
 	font-size:14px
     color: #555;
     margin-right:25px;
 }
-section.footer .row.row2 ul:nth-child(2) li a{
+section.footer .row.row2 ul:nth-child(2) li a
+{
 	text-decoration: none;
 	font-size:14px
     color: #5f6368;
